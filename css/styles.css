@@ -1,0 +1,24 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: black !important;
+}
+
+#logo svg{
+    margin-left: 200px;
+    
+}
+svg{
+fill: azure;
+}
+
+.tarjetas{
+    display: grid;
+    margin-top: 200px;
+    grid-template-columns: repeat(auto-fill, 600px);
+    gap: 20px;
+    text-align: center;
+}
+.card{
+    margin: auto!important;
+}
